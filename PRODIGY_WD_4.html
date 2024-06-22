@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+       /* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, #4776E6, #8E54E9);
+    color: #333;
+}
+
+header {
+    background-color: transparent;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 5em;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+    letter-spacing: 4px;
+}
+
+header p {
+    margin: 20px 0 0;
+    font-size: 2.5em;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+    letter-spacing: 3px;
+}
+
+main {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 60px;
+}
+
+section {
+    padding: 60px;
+    margin: 60px 0;
+    background-color: white;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+#about img {
+    float: left;
+    margin-right: 60px;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    border-bottom: 6px solid #4776E6;
+    padding-bottom: 20px;
+    font-size: 3.5em;
+}
+
+ul.skills {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.skills li {
+    background-color: #F5F5F5;
+    margin: 25px 0;
+    padding: 30px;
+    border: 3px solid #E0E0E0;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    font-size: 1.6em;
+}
+.projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+         .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .project {
+            flex: 1 1 45%;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #f9f9f9;
+            text-align: center;
+        }
+
+        .project img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 1.2em;
+}
+
+.resume-link {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.resume-link a {
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #4776E6, #8E54E9);
+    padding: 30px 50px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    font-size: 1.6em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            background: #77aaff;
+            padding: 10px 20px;
+            border-radius: 5px;
+}
+
+.resume-link a:hover {
+    transform: scale(1.05);
+}
+
+.contact-info p {
+    font-size: 1.7em;
+    margin: 30px 0;
+}
+.projects {
+         flex-direction: column;
+         align-items: center;
+        }
+
+ .project {
+         flex: 1 1 80%;
+            }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TEJJAL SPANDANAA TG</h1>
+            <p>Web Developer & Designer</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="C:\Users\rmk spandanaa\Desktop\logo.jpg.png" alt="Tejjal Spandanaa">
+                <p>Hello! I'm Tejjal Spandanaa, I have a keen interest in Designing . Outside the classroom, I am actively involved in attending technical workshops and conference, which have further developed my Technical Knowledge . I am eager to apply my academic knowledge and passion for learning to a professional setting and contribute to your organization.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul class="skills">
+            <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>C Programming</li>
+                <li>C ++</li>
+                <li>MySQL</li>
+
+        </ul>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <img src="C:\Users\rmk spandanaa\Desktop\pods.png" alt="MEPODS">
+                    <h3>MEPODS - CUSTOMISED EARPODS</h3>
+                    <p>Design your earbuds to fit your own unique ear size</p>
+                </div>
+                <div class="project">
+                    <img src="C:\Users\rmk spandanaa\Desktop\pms1.png" alt="Plant Moniter System">
+                    <h3>Plant Moniter System</h3>
+                    <p>Check the intensity from the atmosphere near your plant from anywhere</p>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+    <section id="resume">
+        <h2>Resume</h2>
+        <div class="resume-link">
+            <a href="C:\Users\rmk spandanaa\Desktop\Tejjal Spandanaa TG Resume.pdf" >Resume</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:230853.cd@rmkec.ac.in">230853.cd@rmkec.ac.in</a></p>
+            <p>LinkedIn <a href="www.linkedin.com/in/tejjal-spandanaa-tg-a6a119290">Tejjal Spandanaa TG</a></p>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tejjal Spandanaa TG. All rights reserved.</p>
+
+    </footer>
+</body>
+</html>
